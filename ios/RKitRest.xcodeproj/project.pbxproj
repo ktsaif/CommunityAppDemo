@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RKitRestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RKitRestTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-RKitRest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RKitRest.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		38E1D2B854BA7E0505EF1CDF /* libPods-RKitRest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5D648587B8C448BC260410 /* libPods-RKitRest.a */; };
 		55F0E4F0239A2D89FBFA6D9E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AF99D5794B83AC9B80717E91 /* PrivacyInfo.xcprivacy */; };
-		7699B88040F8A987B510C191 /* libPods-RKitRest-RKitRestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RKitRest-RKitRestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D28842F003645A0EEE20602A /* libPods-RKitRest-RKitRestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23624E7D52365F31E436074A /* libPods-RKitRest-RKitRestTests.a */; };
+		64A1EBD9254E43EC943482B1 /* Outfit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3540FF8CE7064E508A77C8CC /* Outfit-Black.ttf */; };
+		D581EC9B4EBD45C19552A8D2 /* Outfit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54D44F64FB134B7D95293079 /* Outfit-Bold.ttf */; };
+		BBD242A1676641DE8D289775 /* Outfit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B9F59FA144AF0844C146F /* Outfit-ExtraBold.ttf */; };
+		28A82900F5AE4073A57DCBAF /* Outfit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C825F025F7F947FBB27F2C35 /* Outfit-ExtraLight.ttf */; };
+		AC380D625F434102A1A024E9 /* Outfit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 296DB5186C7A465BA60BD5A1 /* Outfit-Light.ttf */; };
+		B17604793AC74C6ABBAC4D04 /* Outfit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8B97D16DF8A4A5FBEF3DC2F /* Outfit-Medium.ttf */; };
+		140DB13D303E4EBE8CF325EB /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC5716AB3207447796C69F73 /* Outfit-Regular.ttf */; };
+		75EF360CA1B84265903D5475 /* Outfit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA27D1A2CED4EE881F38E95 /* Outfit-SemiBold.ttf */; };
+		ADB584ED5257401FB76919E5 /* Outfit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62906848E06648A1A5DE63D9 /* Outfit-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +40,7 @@
 		00E356EE1AD99517003FC87E /* RKitRestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKitRestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RKitRestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKitRestTests.m; sourceTree = "<group>"; };
+		112220845935AB5044891356 /* Pods-RKitRest-RKitRestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitRest-RKitRestTests.release.xcconfig"; path = "Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RKitRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKitRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RKitRest/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RKitRest/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,15 +48,23 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RKitRest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RKitRest/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RKitRest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RKitRest-RKitRestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RKitRest-RKitRestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-RKitRest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitRest.debug.xcconfig"; path = "Target Support Files/Pods-RKitRest/Pods-RKitRest.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-RKitRest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitRest.release.xcconfig"; path = "Target Support Files/Pods-RKitRest/Pods-RKitRest.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-RKitRest-RKitRestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitRest-RKitRestTests.debug.xcconfig"; path = "Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-RKitRest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RKitRest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23624E7D52365F31E436074A /* libPods-RKitRest-RKitRestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RKitRest-RKitRestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		305FC215FA3772D33CBC93C2 /* Pods-RKitRest-RKitRestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitRest-RKitRestTests.debug.xcconfig"; path = "Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68DAF5224C0D5DA1770B39DF /* Pods-RKitRest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitRest.debug.xcconfig"; path = "Target Support Files/Pods-RKitRest/Pods-RKitRest.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RKitRest/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-RKitRest-RKitRestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitRest-RKitRestTests.release.xcconfig"; path = "Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BDEC748793371E084871792 /* Pods-RKitRest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitRest.release.xcconfig"; path = "Target Support Files/Pods-RKitRest/Pods-RKitRest.release.xcconfig"; sourceTree = "<group>"; };
+		AA5D648587B8C448BC260410 /* libPods-RKitRest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RKitRest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF99D5794B83AC9B80717E91 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = RKitRest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3540FF8CE7064E508A77C8CC /* Outfit-Black.ttf */ = {isa = PBXFileReference; name = "Outfit-Black.ttf"; path = "../src/assets/fonts/Outfit-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54D44F64FB134B7D95293079 /* Outfit-Bold.ttf */ = {isa = PBXFileReference; name = "Outfit-Bold.ttf"; path = "../src/assets/fonts/Outfit-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B8B9F59FA144AF0844C146F /* Outfit-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Outfit-ExtraBold.ttf"; path = "../src/assets/fonts/Outfit-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C825F025F7F947FBB27F2C35 /* Outfit-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Outfit-ExtraLight.ttf"; path = "../src/assets/fonts/Outfit-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		296DB5186C7A465BA60BD5A1 /* Outfit-Light.ttf */ = {isa = PBXFileReference; name = "Outfit-Light.ttf"; path = "../src/assets/fonts/Outfit-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A8B97D16DF8A4A5FBEF3DC2F /* Outfit-Medium.ttf */ = {isa = PBXFileReference; name = "Outfit-Medium.ttf"; path = "../src/assets/fonts/Outfit-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC5716AB3207447796C69F73 /* Outfit-Regular.ttf */ = {isa = PBXFileReference; name = "Outfit-Regular.ttf"; path = "../src/assets/fonts/Outfit-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2DA27D1A2CED4EE881F38E95 /* Outfit-SemiBold.ttf */ = {isa = PBXFileReference; name = "Outfit-SemiBold.ttf"; path = "../src/assets/fonts/Outfit-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		62906848E06648A1A5DE63D9 /* Outfit-Thin.ttf */ = {isa = PBXFileReference; name = "Outfit-Thin.ttf"; path = "../src/assets/fonts/Outfit-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-RKitRest-RKitRestTests.a in Frameworks */,
+				D28842F003645A0EEE20602A /* libPods-RKitRest-RKitRestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-RKitRest.a in Frameworks */,
+				38E1D2B854BA7E0505EF1CDF /* libPods-RKitRest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,8 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-RKitRest.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RKitRest-RKitRestTests.a */,
+				AA5D648587B8C448BC260410 /* libPods-RKitRest.a */,
+				23624E7D52365F31E436074A /* libPods-RKitRest-RKitRestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,6 +145,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BA5BE2CBAFD74D529FB3800A /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -145,13 +164,30 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-RKitRest.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-RKitRest.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-RKitRest-RKitRestTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-RKitRest-RKitRestTests.release.xcconfig */,
+				68DAF5224C0D5DA1770B39DF /* Pods-RKitRest.debug.xcconfig */,
+				8BDEC748793371E084871792 /* Pods-RKitRest.release.xcconfig */,
+				305FC215FA3772D33CBC93C2 /* Pods-RKitRest-RKitRestTests.debug.xcconfig */,
+				112220845935AB5044891356 /* Pods-RKitRest-RKitRestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		BA5BE2CBAFD74D529FB3800A /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				3540FF8CE7064E508A77C8CC /* Outfit-Black.ttf */,
+				54D44F64FB134B7D95293079 /* Outfit-Bold.ttf */,
+				4B8B9F59FA144AF0844C146F /* Outfit-ExtraBold.ttf */,
+				C825F025F7F947FBB27F2C35 /* Outfit-ExtraLight.ttf */,
+				296DB5186C7A465BA60BD5A1 /* Outfit-Light.ttf */,
+				A8B97D16DF8A4A5FBEF3DC2F /* Outfit-Medium.ttf */,
+				CC5716AB3207447796C69F73 /* Outfit-Regular.ttf */,
+				2DA27D1A2CED4EE881F38E95 /* Outfit-SemiBold.ttf */,
+				62906848E06648A1A5DE63D9 /* Outfit-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -160,12 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RKitRestTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				CD15DCD7E3E122DF0226D5DD /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				40DAE55C4F836C3D0FD04574 /* [CP] Embed Pods Frameworks */,
+				9EA08825C25DA085586EFE93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,13 +217,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RKitRest" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				4187181F0C1719D89576BB07 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				1E835A9CF25AB66D1CD5E802 /* [CP] Embed Pods Frameworks */,
+				DC9EBD14E9B53F1E31B24C5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +285,15 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				55F0E4F0239A2D89FBFA6D9E /* PrivacyInfo.xcprivacy in Resources */,
+				64A1EBD9254E43EC943482B1 /* Outfit-Black.ttf in Resources */,
+				D581EC9B4EBD45C19552A8D2 /* Outfit-Bold.ttf in Resources */,
+				BBD242A1676641DE8D289775 /* Outfit-ExtraBold.ttf in Resources */,
+				28A82900F5AE4073A57DCBAF /* Outfit-ExtraLight.ttf in Resources */,
+				AC380D625F434102A1A024E9 /* Outfit-Light.ttf in Resources */,
+				B17604793AC74C6ABBAC4D04 /* Outfit-Medium.ttf in Resources */,
+				140DB13D303E4EBE8CF325EB /* Outfit-Regular.ttf in Resources */,
+				75EF360CA1B84265903D5475 /* Outfit-SemiBold.ttf in Resources */,
+				ADB584ED5257401FB76919E5 /* Outfit-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +316,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		1E835A9CF25AB66D1CD5E802 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,29 +333,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RKitRest/Pods-RKitRest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		40DAE55C4F836C3D0FD04574 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RKitRest-RKitRestTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		4187181F0C1719D89576BB07 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -332,41 +372,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RKitRest/Pods-RKitRest-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RKitRest/Pods-RKitRest-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RKitRest/Pods-RKitRest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		9EA08825C25DA085586EFE93 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,6 +387,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RKitRest-RKitRestTests/Pods-RKitRest-RKitRestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD15DCD7E3E122DF0226D5DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RKitRest-RKitRestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9EBD14E9B53F1E31B24C5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RKitRest/Pods-RKitRest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RKitRest/Pods-RKitRest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RKitRest/Pods-RKitRest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -416,7 +461,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RKitRest-RKitRestTests.debug.xcconfig */;
+			baseConfigurationReference = 305FC215FA3772D33CBC93C2 /* Pods-RKitRest-RKitRestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -443,7 +488,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RKitRest-RKitRestTests.release.xcconfig */;
+			baseConfigurationReference = 112220845935AB5044891356 /* Pods-RKitRest-RKitRestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -467,7 +512,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RKitRest.debug.xcconfig */;
+			baseConfigurationReference = 68DAF5224C0D5DA1770B39DF /* Pods-RKitRest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -494,7 +539,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RKitRest.release.xcconfig */;
+			baseConfigurationReference = 8BDEC748793371E084871792 /* Pods-RKitRest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
