@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "275180810865",
+    "project_id": "rnkit-a4879",
+    "storage_bucket": "rnkit-a4879.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275180810865:android:390fda3cb24d74e2dfa1d0",
+        "android_client_info": {
+          "package_name": "com.rkitrest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCB_8RxB15fGY_ZBZR2qq_LAzivZK0oFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
