@@ -1,33 +1,24 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import {NavigationContainer} from '@react-navigation/native';
+import {createNavigationContainerRef, NavigationContainer} from '@react-navigation/native';
 
-import EntryScreen from '../screens/entry/Entry.screen';
-import RegisterScreen from '../screens/register/Register.screen';
-import LoginScreen from '../screens/login/Login.screen';
+import KundaliScreen from '../screens/kundali/Kundali.screen';
 import { Routes } from '../constants';
-import { navigationRef } from './useNavigation';
 
 
 const RootNavigation = () => {
     const RootStack = createStackNavigator();
+    const navigationRef = createNavigationContainerRef();
+
     return (
         <NavigationContainer ref={navigationRef}>
             <RootStack.Navigator
                 screenOptions={{headerShown: false}}
-                initialRouteName={Routes.ENTRYSCREEN}
+                initialRouteName={Routes.KUNDALISCREEN}
             >
                 <RootStack.Screen
-                name={Routes.ENTRYSCREEN}
-                component={EntryScreen}
-                />
-                <RootStack.Screen
-                name={Routes.LOGINSCREEN}
-                component={LoginScreen}
-                />
-                <RootStack.Screen
-                name={Routes.REGISTERSCREEN}
-                component={RegisterScreen}
+                name={Routes.KUNDALISCREEN}
+                component={KundaliScreen}
                 />
             </RootStack.Navigator>
         </NavigationContainer>

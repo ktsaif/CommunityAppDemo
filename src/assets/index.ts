@@ -1,32 +1,37 @@
+import Ellipse69 from '../assets/images/svg/Ellipse69.svg';
+import KundaliFrame from '../assets/images/svg/KundaliFrame.svg';
+import Vector from '../assets/images/svg/Vector.svg';
 
+/**
+ * Image assets.
+ * @type {ImageAssets}
+ */
 const images = {
-    Bg: require('./images/png/Bg.png'),
-    Frame1: require('./images/png/Frame1.png'),
-    Frame2: require('./images/png/Frame2.png'),
+    //svg
+    Ellipse69,
+    KundaliFrame,
+    Vector,
+    // Add remaining images here.
+};
 
-    BackArrow: require('./images/png/BackArrow.png'),
-    EyeFill: require('./images/png/EyeFill.png'),
-  };
-
-  /**
+/**
  * Font assets.
  * @type {FontAssets}
  */
 const fonts = {
-    Blck: 'Outfit-Black',
-    Bold: 'Outfit-Bold',
-    SemBold: 'Outfit-SemiBold',
-    ExtraBold: 'Outfit-ExtraBold',
-    ExtraLight: 'Outfit-ExtraLight',
-    Light: 'Outfit-Light',
-    Medium: 'Outfit-Medium',
-    Regular: 'Outfit-Regular',
-    Thin: 'Outfit-Thin',
+    Blck: 'Poppins-Black',
+    Bold: 'Poppins-Bold',
+    SemBold: 'Poppins-SemiBold',
+    ExtraBold: 'Poppins-ExtraBold',
+    ExtraLight: 'Poppins-ExtraLight',
+    Light: 'Poppins-Light',
+    Medium: 'Poppins-Medium',
+    Regular: 'Poppins-Regular',
+    Thin: 'Poppins-Thin',
     // Add remaining fonts here.
 };
-
 
 export {
     images,
     fonts,
-}
+};
